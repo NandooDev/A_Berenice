@@ -1,0 +1,256 @@
+@font-face {
+    font-family: "catchy";
+    src: url("catchy.ttf") format(opentype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "catchy", sans-serif;
+}
+
+/*INICIO DO CONTEUDO DO HEADER*/
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/img2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav #barranav {
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 0 2vw;
+}
+
+nav #barranav a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+nav #barranav a:hover {
+    color: rgb(23, 23, 23);
+}
+
+nav #pessacolo {
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+nav #pessacolo #pesquisa {
+    position: relative;
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    display: inherit;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000000;
+}
+
+nav #pessacolo #pesquisa input {
+    width: 90%;
+    border: none;
+    font-size: 25px;
+    color: #000000;
+    background-color: transparent;
+    outline: none;
+}
+nav #pessacolo #pesquisa input::placeholder {
+    color: #000000;
+}
+
+nav #pessacolo #pesquisa img {
+    height: 120%;
+    cursor: pointer;
+}
+
+nav #pessacolo .sacola {
+    height: 30px;
+    cursor: pointer;
+}
+
+nav #pessacolo #logo {
+    height: 90%;
+}
+
+#nome {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#nome h1 {
+    font-size: 10vw;
+    color: #684545;
+}
+
+#nome h5 {
+    font-size: 5vw;
+    color: #FFFFFF;
+}
+
+.btn {
+    border: none;
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(219, 219, 219);
+}
+/*FIM DO CONTEUDO DO HEADER*/
+
+/*INICIO DO CONTEUDO MAIN*/
+
+/*inicio do conteudo do que a loja oferece*/
+main #oferece {
+    background-color: #C6B1A0;
+    padding: 2% 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main #oferece h1 {
+    font-size: 3vw;
+    margin-bottom: 50px;
+}
+
+main #oferece #oqofe {
+    display: flex;
+    gap: 30px;
+}
+
+main #oferece .ofe {
+    display: inline-block;
+    width: 300px;
+}
+
+main #oferece .ofe img {
+    width: 100%;
+    height: 400px;
+}
+
+main #oferece .ofe h3 {
+    margin: 10px 0;
+}
+
+main #oferece a {
+    text-decoration: none;
+}
+
+main #oferece a button {
+    display: block;
+}
+/*fim do conteudo do que a loja oferece*/
+
+/*inicio do conteudo do porque a berenice*/
+main #porqueabe {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main #porqueabe #tipa {
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+main #porqueabe #tipa h1 {
+    font-size: 45px;
+}
+
+main #porqueabe #tipa p {
+    font-size: 20px;
+    text-align: justify;
+}
+/*fim do conteudo do porque a berenice*/
+
+/*inicio do conteudo feito para voce*/
+main #feito {
+    padding: 3% 0 7%;
+    width: 100%;
+    height: 100vh;
+    background-color: #F1EBE1;
+    display: flex;
+    justify-content: center;
+}
+
+main #feito #textos, #imgs {
+    margin-top: auto;
+}
+
+main #feito #textos {
+    margin-bottom: 50px;
+    width: 250px;
+}
+
+main #feito #textos p {
+    font-size: 20px;
+}
+
+main #feito #imgs img {
+    width: 400px;
+    height: 500px;
+}
+/*fim do conteudo feito para voce*/
+
+/*inicio do conteudo trabalhe conosco*/
+main #trabalhe {
+    width: 100%;
+    height: 100vh;
+    background-color: #A6795E;
+    display: flex;
+    justify-content: space-between;
+}
+
+main #trabalhe #contatos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 35px;
+}
+
+main #trabalhe #contatos h1 {
+    font-size: 40px;
+}
+
+main #trabalhe img {
+    width: 50%;
+    height: 100%;
+    right: 0;
+}
+/*fim do conteudo trabalhe conosco*/
+
+/*FIM DO CONTEUDO DO MAIN*/

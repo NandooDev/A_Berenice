@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "catchy";
+    src: url("catchy.ttf") format(opentype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "catchy", sans-serif;
+}
+
+/*inicio da pagina carrinho*/
+body {
+    background-color: #D3C7BD;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #532D16;
+}
+
+#container #containerfilho {
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 90%;
+    padding-top: 10px;
+}
+
+#container #containerfilho a {
+    text-decoration: underline;
+    color: #532D16;
+    margin-left: 90%;
+}
+
+#container #containerfilho #seucar {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container #containerfilho #seucar p {
+    font-size: 20px;
+}
+
+#container #containerfilho #baixo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    padding: 0 20px;
+}
+/*fim da pagina carrinho*/
