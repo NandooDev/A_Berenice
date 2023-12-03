@@ -1,28 +1,100 @@
 {
     "produtos": [
         {
-            "nome": "CONJUNTO PRIMAVERA",
-            "img1": "../img/1.png",
-            "img2": "../img/2.png",
-            "img3": "../img/3.png",
-            "valor": "10.00",
-            "juros": "2"
+            "nome": "CONJUNTO CAROL",
+            "img1": "../img/produtos/carol.jpeg",
+            "img2": "../img/produtos/carol.jpeg",
+            "img3": "../img/produtos/carol.jpeg",
+            "valor": "700.00",
+            "juros": "4"
         },
         {
-            "nome": "CONJUNTO NOVO",
-            "img1": "../img/1.png",
-            "img2": "../img/2.png",
-            "img3": "../img/3.png",
-            "valor": "15.00",
-            "juros": "2"
+            "nome": "CONJUNTO LILI",
+            "img1": "../img/produtos/lili.jpeg",
+            "img2": "../img/produtos/lili.jpeg",
+            "img3": "../img/produtos/lili.jpeg",
+            "valor": "1700.00",
+            "juros": "10"
         },
         {
-            "nome": "CONJUNTO NOVO",
-            "img1": "../img/1.png",
-            "img2": "../img/2.png",
-            "img3": "../img/3.png",
-            "valor": "20.30",
-            "juros": "2"
+            "nome": "CONJUNTO SOPHIE",
+            "img1": "../img/produtos/sophie.jpeg",
+            "img2": "../img/produtos/sophie2.jpeg",
+            "img3": "../img/produtos/sophie3.jpeg",
+            "valor": "4500.00",
+            "juros": "12"
+        },
+        {
+            "nome": "CONJUNTO BRUNA",
+            "img1": "../img/produtos/bruna.jpeg",
+            "img2": "../img/produtos/bruna.jpeg",
+            "img3": "../img/produtos/bruna.jpeg",
+            "valor": "3200.00",
+            "juros": "10"
+        },
+        {
+            "nome": "CONJUNTO ENZO",
+            "img1": "../img/produtos/enzo.jpeg",
+            "img2": "../img/produtos/enzo.jpeg",
+            "img3": "../img/produtos/enzo.jpeg",
+            "valor": "4200.00",
+            "juros": "12"
+        },
+        {
+            "nome": "CONJUNTO BELA",
+            "img1": "../img/produtos/bela.jpeg",
+            "img2": "../img/produtos/bela2.jpeg",
+            "img3": "../img/produtos/bela3.jpeg",
+            "valor": "8500.00",
+            "juros": "12"
+        },
+        {
+            "nome": "CONJUNTO MEL",
+            "img1": "../img/produtos/mel.jpeg",
+            "img2": "../img/produtos/mel2.jpeg",
+            "img3": "../img/produtos/mel.jpeg",
+            "valor": "2400.00",
+            "juros": "8"
+        },
+        {
+            "nome": "CONJUNTO EMERALD",
+            "img1": "../img/produtos/emerald.jpeg",
+            "img2": "../img/produtos/emerald.jpeg",
+            "img3": "../img/produtos/emerald.jpeg",
+            "valor": "2300.00",
+            "juros": "8"
+        },
+        {
+            "nome": "CONJUNTO OLÍVIA",
+            "img1": "../img/produtos/olivia.jpeg",
+            "img2": "../img/produtos/olivia.jpeg",
+            "img3": "../img/produtos/olivia.jpeg",
+            "valor": "589.00",
+            "juros": "3"
+        },
+        {
+            "nome": "CONJUNTO JULIANA LIA",
+            "img1": "../img/produtos/julianalia.jpeg",
+            "img2": "../img/produtos/julianalia.jpeg",
+            "img3": "../img/produtos/julianalia.jpeg",
+            "valor": "980.99",
+            "juros": "5"
+        },
+        {
+            "nome": "CONJUNTO JULIANA",
+            "img1": "../img/produtos/juliana.jpeg",
+            "img2": "../img/produtos/juliana.jpeg",
+            "img3": "../img/produtos/juliana.jpeg",
+            "valor": "1500.00",
+            "juros": "6"
+        },
+        {
+            "nome": "CONJUNTO CHARLOTTE",
+            "img1": "../img/produtos/charlotte.jpeg",
+            "img2": "../img/produtos/charlotte.jpeg",
+            "img3": "../img/produtos/charlotte.jpeg",
+            "valor": "1850.00",
+            "juros": "6"
         }
     ],
     "addCar": [
